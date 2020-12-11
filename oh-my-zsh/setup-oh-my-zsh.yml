@@ -1,0 +1,9 @@
+---
+# ansible-playbook setup-oh-my-zsh.yml -i "node1,node2" -u root
+- hosts: all
+  gather_facts: no
+  tasks:
+    - name: setup oh-my-zsh
+      script: oh-my-zsh.sh
+
+      
