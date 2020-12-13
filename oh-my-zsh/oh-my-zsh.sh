@@ -27,6 +27,7 @@ else
 	echo "###########################"
 	echo "CENTOS/REDHAT FAMILY FOUND"
 	echo "###########################"
-	yum update;yum install -y epel-release;yum install -y git zsh zsh-syntax-highlighting
+	#yum update;yum install -y epel-release;yum install -y git zsh zsh-syntax-highlighting
+	yum install -y epel-release;yum install -y git zsh zsh-syntax-highlighting
 	ohmyzsh
 fi
